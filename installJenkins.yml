@@ -1,5 +1,5 @@
 ---
-- hosts: appserver
+- hosts: deployserver
   gather_facts: false
   become: true
   tasks:
